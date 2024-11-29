@@ -1,0 +1,5 @@
+.alert-primary {
+    --wr-alert-bg: rgb(3, 22, 51);
+    --wr-alert-color: white;
+    --wr-alert-border-color: red;
+}

@@ -1,0 +1,23 @@
+.alert {
+    --wr-alert-bg: transparent;
+    --wr-alert-padding-x: 1rem;
+    --wr-alert-padding-y: 1rem;
+    --wr-alert-margin-bottom: 2rem;
+    --wr-alert-color: inherit;
+    --wr-alert-border-width: transparent;
+    --wr-alert-border-color: transparent;
+    --wr-alert-border: var(--wr-alert-border-width) solid var(--wr-alert-border-color);
+    --wr-alert-border-radius: #{$alert-border-radius};
+    --wr-alert-link-color: inherit;
+
+    padding: var(--wr-alert-padding-y) var(--wr-alert-padding-x);
+    margin-bottom: var(--wr-alert-margin-bottom);
+    color: var(--wr-alert-color);
+    background-color: var(--wr-alert-bg);
+    border: var(--wr-alert-border);
+    border-radius: .375rem;
+
+    a {
+        color: var(--wr-alert-link-color);
+    }
+}
